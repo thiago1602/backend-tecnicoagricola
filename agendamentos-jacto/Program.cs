@@ -16,7 +16,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddEntityFrameworkNpgsql()
-    .AddDbContext<Contexto>(options => options.UseNpgsql("Host=localhost;Port=5432;Pooling=true;DATABASE=Thiago;User Id=postgres;Password=aula"));
+    .AddDbContext<Contexto>(options => options.UseNpgsql("Host=localhost;Port=5432;Pooling=true;DATABASE=Thiago;User Id=postgres;Password="));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
