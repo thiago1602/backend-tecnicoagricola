@@ -107,9 +107,10 @@ namespace agendamentos_jacto.Controllers
             //Usuario não consegue salvar uma data anterior da atual
             agenda.CriadoEm = DateTime.Now;
             
+
             if(agenda.Feito == true && agenda.FinalizadoEm  < agenda.FinalizacaoEstimada)
             {
-                return ViewBag.Mensagem = "Data e hora finalizada tem que ser igual ou maior Data e hora estimada";
+                return Ok("Data e hora finalizada tem que ser igual ou maior Data e hora estimada");
             }
             if (id != agenda.Id)
             {

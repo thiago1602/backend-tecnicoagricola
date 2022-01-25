@@ -274,3 +274,5 @@ C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\obj\Debug\net6
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\obj\Debug\net6.0\ref\agendamentos-jacto.dll
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\obj\Debug\net6.0\agendamentos-jacto.pdb
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\obj\Debug\net6.0\agendamentos-jacto.genruntimeconfig.cache
+C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
