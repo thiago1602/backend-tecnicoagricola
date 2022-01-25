@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using agendamentos_jacto.Models;
+using Nancy.Json;
 
 namespace agendamentos_jacto.Controllers
 {
@@ -105,7 +106,11 @@ namespace agendamentos_jacto.Controllers
         {
             //Usuario não consegue salvar uma data anterior da atual
             agenda.CriadoEm = DateTime.Now;
-
+            
+            if(agenda.Feito == true && agenda.FinalizadoEm  < agenda.FinalizacaoEstimada)
+            {
+                return ViewBag.Mensagem = "Data e hora finalizada tem que ser igual ou maior Data e hora estimada";
+            }
             if (id != agenda.Id)
             {
                 return NotFound();
@@ -167,5 +172,14 @@ namespace agendamentos_jacto.Controllers
         {
             return _context.Agendas.Any(e => e.Id == id);
         }
+
+        /*
+        public string Consulta(string cep)
+        {
+            var cepObj = Cep.Busca(cep);
+            return new Nancy.Json.JavaScriptSerializer().Serialize(cepObj);
+        }
+        */
     }
+   
 }

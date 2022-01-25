@@ -58,6 +58,8 @@ C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\Nancy.dll
+C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\Nancy.Serialization.JsonNet.dll
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\Npgsql.dll
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
@@ -82,6 +84,7 @@ C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\System.Security.Permissions.dll
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\Vse.Web.Serialization.dll
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\thiag\Desktop\backend-tecnicoagricola\agendamentos-jacto\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
